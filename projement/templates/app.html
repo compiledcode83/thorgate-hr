@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% load render_bundle from webpack_loader %}
+
+{% block content %}
+    <div id="app"></div>
+
+    {% render_bundle 'app' %}
+
+    <script>
+        projement.init();
+    </script>
+{% endblock content %}

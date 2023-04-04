@@ -1,0 +1,14 @@
+django==2.2.7
+django-crispy-forms==1.8.1
+markdown==3.1.1
+django-settings-export==1.2.1
+django-webpack-loader==0.6.0
+djangorestframework==3.10.3
+
+# Test & quality tools
+pytest==5.3.0
+pytest-django==3.7.0
+coverage==4.5.4
+black==22.3.0
+django-debug-toolbar==2.1
+Faker==2.0.4
